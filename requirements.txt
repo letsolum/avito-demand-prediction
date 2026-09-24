@@ -1,0 +1,13 @@
+numpy>=1.26
+pandas>=2.2
+pyarrow>=15
+scipy>=1.11
+scikit-learn>=1.4
+catboost==1.2.10
+matplotlib>=3.8
+kaggle>=1.6
+
+# только для тяжёлых шагов (RUN_GPU, RUN_IMAGES, RUN_EXTRA)
+torch>=2.2
+transformers>=4.40
+pillow>=10
